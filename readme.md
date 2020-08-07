@@ -4,6 +4,16 @@
 
 [github OAuth 注册地址](https://github.com/settings/applications/new)
 
+## 使用
+
+```sh
+npm install
+
+node ./index.js
+```
+
+在浏览器中打开 http://localhost:3000/ 进行第三方授权登录
+
 # OAuth 授权流程
 
 ## 资料
