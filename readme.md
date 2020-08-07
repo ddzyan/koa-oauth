@@ -58,6 +58,8 @@ node ./index.js
 }
 ```
 
+当所有流程完成后，用户如果再次点击第三方登录按钮，则用户无需再二次授权，第三方服务会直接返回 code 给 client , 使之走接下来的流程。
+
 ## 常见问题
 
 #### Q : 为什么 OAuth2 在获取 access token 之前一定要先获取 code , 然后再用 code 去获取 access token?
